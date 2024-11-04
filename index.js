@@ -10,12 +10,12 @@ function destructivelyPrependCat(string){
     cats.unshift(string);
 }
 
-function destructivelyRemoveLastCat(string){
-    cats.pop(string);
+function destructivelyRemoveLastCat(){
+    cats.pop();
 }
 
-function destructivelyRemoveFirstCat (string){
-    cats.shift(string);
+function destructivelyRemoveFirstCat (){
+    cats.shift();
 }
 
 function appendCat(string){
